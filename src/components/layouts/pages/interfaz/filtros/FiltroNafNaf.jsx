@@ -16,7 +16,7 @@ const FiltroNafNaf = () => {
       <Head />
       <main style={{ marginTop: "10.5rem", marginBottom: "2rem", }}>
         <NabBarN />
-        <Link to={"/Mothercare"}>
+        <Link to={"/NafNaf"}>
           <button type='button' className='linkIicioImagen' style={{ margin: "0 auto", marginTop: "1rem", display: "block" }}>Ver Todo</button>
         </Link>
       </main>

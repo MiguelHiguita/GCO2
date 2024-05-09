@@ -8,6 +8,24 @@ import FiltroAmerocanino from './components/layouts/pages/interfaz/filtros/Filtr
 import FiltroMotherCare from './components/layouts/pages/interfaz/filtros/FiltroMotherCare'
 import FiltroNafNaf from './components/layouts/pages/interfaz/filtros/FiltroNafNaf'
 import FiltroChevignon from './components/layouts/pages/interfaz/filtros/FiltroChevignon'
+import AmericaninoCamisas from './components/layouts/pages/interfaz/filtros/Categories/Americanino/AmericaninoCamisas'
+import AmericaninoCamisetas from './components/layouts/pages/interfaz/filtros/Categories/Americanino/AmericaninoCamisetas'
+import AmericaninoGorras from './components/layouts/pages/interfaz/filtros/Categories/Americanino/AmericaninoGorras'
+import AmericaninoMedias from './components/layouts/pages/interfaz/filtros/Categories/Americanino/AmericaninoMedias'
+import MotherCareCoches from './components/layouts/pages/interfaz/filtros/Categories/MotherCare/MotherCareCoches'
+import MotherCareCochesDobles from './components/layouts/pages/interfaz/filtros/Categories/MotherCare/MotherCareCochesDobles'
+import MotherCareCunas from './components/layouts/pages/interfaz/filtros/Categories/MotherCare/MotherCareCunas'
+import MotherCareSillas from './components/layouts/pages/interfaz/filtros/Categories/MotherCare/MotherCareSillas'
+import NafNafAbrigos from './components/layouts/pages/interfaz/filtros/Categories/NafNaf/NafNafAbrigos'
+import NafNafCamisas from './components/layouts/pages/interfaz/filtros/Categories/NafNaf/NafNafCamisas'
+import NafNafCamisetas from './components/layouts/pages/interfaz/filtros/Categories/NafNaf/NafNafCamisetas'
+import NafNafEnterizos from './components/layouts/pages/interfaz/filtros/Categories/NafNaf/NafNafEnterizos'
+import NafNafPantalones from './components/layouts/pages/interfaz/filtros/Categories/NafNaf/NafNafPantalones'
+import NafNafZapatos from './components/layouts/pages/interfaz/filtros/Categories/NafNaf/NafNafZapatos'
+import ChevignonBuzos from './components/layouts/pages/interfaz/filtros/Categories/Chevignon/ChevignonBuzos'
+import ChevignonCamisas from './components/layouts/pages/interfaz/filtros/Categories/Chevignon/ChevignonCamisas'
+import ChevignonChaquetas from './components/layouts/pages/interfaz/filtros/Categories/Chevignon/ChevignonChaquetas'
+import ChevignonPantalones from './components/layouts/pages/interfaz/filtros/Categories/Chevignon/ChevignonPantalones'
 
 let router = createBrowserRouter([
   {
@@ -47,12 +65,77 @@ let router = createBrowserRouter([
     element: <FiltroChevignon />,
   },
   {
-    path: "Americanino-Camisas"
+    path: "Americanino-Camisas",
+    element: <AmericaninoCamisas />,
+  },
+  {
+    path: "Americanino-Camisetas",
+    element: <AmericaninoCamisetas />,
+  },
+  {
+    path: "Americanino-Gorras",
+    element: <AmericaninoGorras />,
+  },
+  {
+    path: "Americanino-Medias",
+    element: <AmericaninoMedias />
+  },
+  {
+    path: "Mothercare-Coches",
+    element: <MotherCareCoches />
+  },
+  {
+    path: "Mothercare-CochesDobles",
+    element: <MotherCareCochesDobles />
+  },
+  {
+    path: "Mothercare-Cunas",
+    element: <MotherCareCunas />
+  },
+  {
+    path: "Mothercare-Sillas",
+    element: <MotherCareSillas />
+  },
+  {
+    path: "Nafnaf-Abrigos",
+    element: <NafNafAbrigos />
+  },
+  {
+    path: "Nafnaf-Camisas",
+    element: <NafNafCamisas />
+  },
+  {
+    path: "Nafnaf-Camisetas",
+    element: <NafNafCamisetas />
+  },
+  {
+    path: "Nafnaf-Enterizos",
+    element: <NafNafEnterizos />
+  },
+  {
+    path: "Nafnaf-Pantalones",
+    element: <NafNafPantalones />
+  },
+  {
+    path: "Nafnaf-Zapatos",
+    element: <NafNafZapatos />
+  },
+  {
+    path: "Chevignon-Buzos",
+    element: <ChevignonBuzos />
+  },
+  {
+    path: "Chevignon-Camisas",
+    element: <ChevignonCamisas />
+  },
+  {
+    path: "Chevignon-Chaquetas",
+    element: <ChevignonChaquetas />
+  },
+  {
+    path: "Chevignon-Pantalones",
+    element: <ChevignonPantalones />
   }
-
-
-
-
 ])
 
 

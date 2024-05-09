@@ -6,22 +6,22 @@ const product = [
     {
         nameProduct: 'Coches',
         imageUrl: "/src/assets/img/prendas_mothercare/coche_rojo.jpg",
-        link: "/Mothercare"
+        link: "/Mothercare-Coches"
     },
     {
         nameProduct: 'Cunas',
         imageUrl: '/src/assets/img/prendas_mothercare/cuna_blanca.jpg',
-        link: "/Mothercare"
+        link: "/Mothercare-Cunas"
     },
     {
         nameProduct: 'Sillas',
         imageUrl: '/src/assets/img/prendas_mothercare/silla_para_bebe_azul.jpg',
-        link: "/Mothercare"
+        link: "/Mothercare-Sillas"
     },
     {
         nameProduct: "Coches dobles",
         imageUrl: "/src/assets/img/prendas_mothercare/coche_doble.jpg",
-        link: "/Mothercare"
+        link: "/Mothercare-CochesDobles"
     },
 ]
 

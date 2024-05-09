@@ -6,22 +6,22 @@ const product = [
     {
         nameProduct: 'Buzos',
         imageUrl: "src/assets/img/prendas_Chevignon/buzo_Amarillo_Chevignon.jpeg",
-        link: "/Chevignon"
+        link: "/Chevignon-Buzos"
     },
     {
         nameProduct: 'Camisa',
         imageUrl: 'src/assets/img/prendas_Chevignon/camisa_negro_gris.jpg',
-        link: "/Chevignon"
+        link: "/Chevignon-Camisas"
     },
     {
         nameProduct: 'Chaquetas',
         imageUrl: 'src/assets/img/prendas_Chevignon/chaqueta_Chevignon.jpg',
-        link: "/Chevignon"
+        link: "/Chevignon-Chaquetas"
     },
     {
         nameProduct: "Pantalones",
         imageUrl: "src/assets/img/prendas_Chevignon/jean_AzulClaro_chevignon.jpg",
-        link: "/Chevignon"
+        link: "/Chevignon-Pantalones"
     },
 ]
 
